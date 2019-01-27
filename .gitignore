@@ -23,7 +23,8 @@ hs_err_pid*
 /build.xml
 
 # maven
-/target
 /dependency-reduced-pom.xml
-*/target
 */dependency-reduced-pom.xml
+target/*
+!target/FogPrettifier.jar
+out/
